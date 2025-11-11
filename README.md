@@ -46,7 +46,7 @@ The design uses one generic parameter:
 
 The architecture is shown in the figure below:
 
-<img src="images/BlockDiagram.png" alt="Top level block design" width="30%">
+<img src="images/BlockDiagram.png" alt="Top level block design" width="70%">
 
 At the top level, these blocks are connected and controlled by the **main FSM**, which coordinates number building, pushing, popping, and operations.  
 The FSM graph is shown below:
