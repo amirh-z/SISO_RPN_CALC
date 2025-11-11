@@ -58,7 +58,7 @@ The output width is defined by the generic `word_length`.
 
 ---
 
-### 📥 Fetch Block
+### Fetch Block
 
 The **Fetch** block reads ASCII input characters, builds decimal numbers, and generates control signals when it detects the character `E` (Enter) or an operator (`+`, `-`, `*`).
 
@@ -86,7 +86,7 @@ Our dedicated conversion hardware completes the process in **N clock cycles for 
 
 ---
 
-### ⚙️ ALU
+### ALU
 
 | Name       | Direction | Width               |
 |-------------|------------|---------------------|
@@ -105,7 +105,7 @@ Subtraction is implemented using the adder by inverting the second operand, givi
 
 ---
 
-### 🧱 Stack
+### Stack
 
 | Name          | Direction | Width               |
 |----------------|------------|---------------------|
