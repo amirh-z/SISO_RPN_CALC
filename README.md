@@ -46,12 +46,12 @@ The design uses one generic parameter:
 
 The architecture is shown in the figure below:
 
-![Top level block design](images/BlockDiagram.png)
+<img src="images/BlockDiagram.png" alt="Top level block design" width="30%">
 
 At the top level, these blocks are connected and controlled by the **main FSM**, which coordinates number building, pushing, popping, and operations.  
 The FSM graph is shown below:
 
-<img src="images/FSM.png" alt="Main FSM" width="60%">
+<img src="images/FSM.png" alt="Main FSM" width="30%">
 
 The calculator accepts **7-bit ASCII input**, which is enough to represent all required characters.  
 The output width is defined by the generic `word_length`.
