@@ -51,7 +51,7 @@ The architecture is shown in the figure below:
 At the top level, these blocks are connected and controlled by the **main FSM**, which coordinates number building, pushing, popping, and operations.  
 The FSM graph is shown below:
 
-![Main FSM](images/FSM.png)
+<img src="images/FSM.png" alt="Main FSM" width="60%">
 
 The calculator accepts **7-bit ASCII input**, which is enough to represent all required characters.  
 The output width is defined by the generic `word_length`.
