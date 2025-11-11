@@ -1,6 +1,6 @@
 # SISO RPN Calculator
 
-This project is a **Serial-In Serial-Out (SISO)** calculator made in **VHDL** and was created as part of the course *System-on-Chip for Embedded Systems* course at the University of Twente.
+This project is a **Serial-In Serial-Out (SISO)** calculator made in **VHDL** and was created as part of the course *System-on-Chip for Embedded Systems* at the University of Twente.
 
 The design implements a **Reverse-Polish Notation (RPN)** calculator using integer arithmetic.  
 For more information about RPN, see [this page on the HP Museum website](https://www.hpmuseum.org/rpn.htm).
